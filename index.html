@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon-32x32.png"/>
     <title>Rating</title>
 </head>
     <body>
         <div id="box">
-            <div id="star"><img src="./assets/images/icon-star.svg"/></div>
+            <div id="star" class="circle"><img src="./assets/images/icon-star.svg"/></div>
             <div id="feedback-question">
                 <h1>How did we do?</h1>
                 <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
             </div>
             <div id="rating-numbers">
                 <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
+                    <li class="circle">1</li>
+                    <li class="circle">2</li>
+                    <li class="circle">3</li>
+                    <li class="circle">4</li>
+                    <li class="circle">5</li>
                 </ul>
-            </div>
-            <button id="submit-button">Submit</button>
-            <div id="image">Image</div>
-            <div id="rating-selection">You selected out of 5</div>
+                <button id="submit-button">SUBMIT</button>
             <div id="feedback-thankyou">
                 <h2>Thank you!</h2>
                 <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hessitate to get in touch!</p>

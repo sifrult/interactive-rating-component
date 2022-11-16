@@ -12,7 +12,6 @@ var ratingEl = $('#rating-selection');
 
 var thankYouEl = $('#feedback-thankyou');
 
-submitBtn.hide();
 imageEl.hide();
 ratingEl.hide();
 thankYouEl.hide();
