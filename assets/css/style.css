@@ -1,6 +1,5 @@
 body {
     background-color: hsl(216, 12%, 8%);
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +29,12 @@ body {
 }
 
 h1, h2 {
+    color: white;
     font-size: 23px;
     margin: 20px 0 15px;
 }
 
-p {
+#feedback-question {
     color: hsl(216, 12%, 54%);
     line-height: 17px;
     margin: 0 0 15px;
@@ -56,14 +56,44 @@ p {
     border: none;
 }
 
-button:hover {
+#submit-button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+#rating-num:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+#rating-num:focus {
     background-color: hsl(217, 12%, 63%);
     color: white;
 }
 
-button:focus {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
+#image {
+    margin: auto;
+    width:fit-content
+}
+
+#rating-selection {
+    background-color: #262e38;
+    width: 140px;
+    height: 20px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: hsl(25, 97%, 53%);
+}
+
+#feedback-thankyou {
+    color: hsl(216, 12%, 54%);
+    line-height: 17px;
+    text-align: center;
+    margin: 40px 0;
 }
 
 @media screen and (min-width: 426px){
