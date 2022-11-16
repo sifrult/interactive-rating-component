@@ -6,12 +6,12 @@ body {
     align-items: center;
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #box {
     background-color: #1d242e;
-    width: 325px;
+    width: 280px;
     height: 330px;
     border-radius: 20px;
     padding: 20px;
@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2 {
-    font-size: 20px;
+    font-size: 23px;
     margin: 20px 0 15px;
 }
 
@@ -52,4 +52,10 @@ ul {
     background-color: hsl(25, 97%, 53%);
     color: white;
     border: none;
+}
+
+@media screen and (min-width: 426px){
+ #box {
+    width: 325px;
+ }
 }
