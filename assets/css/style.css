@@ -19,12 +19,14 @@ body {
 
 .circle {
     background-color: #262e38;
+    border: none;
     width: 40px;
     height: 40px;
     border-radius: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
+    color: hsl(217, 12%, 63%);
 }
 
 h1, h2 {
@@ -38,7 +40,7 @@ p {
     margin: 0 0 15px;
 }
 
-ul {
+#rating-numbers {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,6 +54,16 @@ ul {
     background-color: hsl(25, 97%, 53%);
     color: white;
     border: none;
+}
+
+button:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+button:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 @media screen and (min-width: 426px){
