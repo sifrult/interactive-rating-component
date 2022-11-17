@@ -36,7 +36,6 @@ function formSubmit(event) {
     thankYouEl.show();
 }
 
-
 // Submit rating
 submitBtn.on("click", formSubmit);
 
